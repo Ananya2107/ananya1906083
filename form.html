@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>form</title>
+<link rel="stylesheet" 
+ href="ext.css">
+</head>
+<body >
+<table bgcolor="white" >
+<tr>
+<td><A href="index.html"><b><font color="blue" size=3>&ensp; Back to main &ensp;</font></b></A></td>
+<td><A href="aboutme.html"><b><font color="blue" size=3>&ensp;About me&ensp;</font></b></A></td>
+<td><A HREF="edu.html"><b><font color="blue" size=3>&ensp;Education&ensp;</font></b></A></td>
+<td><A HREF="skill.html"><b><font color="blue" size=3>&ensp;Skills&ensp;</font></b></A></td>
+<td><A href="contact.html"><b><font color="blue" size=3>&ensp;Contact details&ensp;</font></b></A></td>
+</tr>
+</table>
+<h1> Please fill out the the from below</h1>
+<h2>Basic Info</h2>
+<form name="reg">
+Name:<br>
+<input type="text" name="uid" id= "uid" size=30><br>
+Age:<br>
+<input type="number" name="uid" id="uid" size=10><br>
+Gender<br>
+<select name="gender" id="gender">
+<option>Others
+<option>Male
+<option>Female
+</select>
+<br>
+<br>
+<fieldset>
+<legend align="top"><h2>Occupation</h2></legend>
+<input type="radio" name="occupation" id="student" value="student">
+<label for="student">Student</label><br>
+<input type="radio" name="occupation" id="gov emp" value="gov emp">
+<label for="student">Government Employee</label><br>
+<input type="radio" name="occupation" id="ngov emp" value="ngov employee">
+<label for="student">Non-government employee</label><br>
+<input type="radio" name="occupation" id="none" value="none">
+<label for="student">None</label><br>
+</fieldset>
+</form>
+<br><br>
+<h2>Institute/Organisation</h2>
+<form name="reg">
+Enter the name of Institute/Organisation currently associated with:<br>
+<input type="text" name="uid" id="uid" size=30><br>
+</form>
+<input type="submit" name="dload" value="Submit">
+<input type="reset">
+</body>
+</html>
